@@ -122,10 +122,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-                &trans        &trans        &trans          &trans     &trans                        &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
-&kp GRAVE       &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans                        &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp O   &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans          &trans     &trans     &trans     &trans  &trans         &trans          &trans          &trans           &trans  &trans
-                                            &kp LCTRL       &mo 3      &kp SPACE  &kp LCTRL  &trans  &trans         &trans          &trans
+                &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE      &trans     &trans                        &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&kp GRAVE       &sk LEFT_WIN       &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans                        &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp O   &trans
+&kp LEFT_SHIFT  &trans             &trans        &trans          &trans     &trans     &trans     &trans  &trans         &trans          &trans          &trans           &trans  &trans
+                                                 &kp LCTRL       &mo 3      &kp SPACE  &kp LCTRL  &trans  &trans         &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
