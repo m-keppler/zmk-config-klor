@@ -131,7 +131,7 @@
 
             bindings = <
                 &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp K_MUTE        &trans       &trans                        &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
-&kp GRAVE       &skey LEFT_GUI     &skey LEFT_ALT  &skey LEFT_SHIFT  &skey LCTRL  &trans                        &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp O   &trans
+&kp GRAVE       &skey LEFT_GUI     &skey LEFT_ALT  &skey LEFT_SHIFT  &skey LCTRL  &trans                        &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &kp LEFT_SHIFT  &trans             &trans          &trans            &trans       &trans     &trans     &trans  &trans         &trans          &trans          &trans           &trans  &trans
                                                    &kp LCTRL         &mo 3        &kp SPACE  &kp LCTRL  &trans  &trans         &trans          &trans
             >;
