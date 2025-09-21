@@ -33,12 +33,13 @@
             bindings = <&kp>, <&kp>;
         };
 
-        skey: ctrl_sticky_node {
+        skey: skey {
             compatible = "zmk,behavior-sticky-key";
-            label = "ctrl_sticky";
+            label = "SKEY";
             bindings = <&skey>;
             #binding-cells = <1>;
             release-after-ms = <500>;
+            quick-release;
         };
     };
 
